@@ -1,5 +1,6 @@
 package com.wzq.mybatis.dao;
 
+import com.wzq.mybatis.model.Role;
 import com.wzq.mybatis.model.User;
 
 import java.util.List;
@@ -21,4 +22,5 @@ public interface UserDao {
 
     public List<User> getAllUsers();
 
+    public List<User> getUserList(int id);
 }

@@ -8,11 +8,20 @@
         SELECT * FROM role WHERE rolename=#{rolename}
     </select>
 
+    <select id="getRoleList"  parameterType="int" resultMap="BaseResultMap">
+        select
+        a.id, rolename, alias
+        from role a JOIN user_role b
+        on a.id = b.role_id
+        and b.user_id = #{id}
+    </select>
+
     <resultMap id="BaseResultMap" type="com.wzq.mybatis.model.Role">
         <id property="id" column="id"></id>
         <result property="rolename" column="rolename"></result>
         <result property="alias" column="alias"></result>
     </resultMap>
+
     <select id="getAllRoles" resultMap="BaseResultMap">
         select
         id,rolename,alias

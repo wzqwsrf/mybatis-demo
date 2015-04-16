@@ -1,18 +1,20 @@
 package com.wzq.mybatis.model;
 
+import java.util.List;
+
 /**
  * @author: wangzhenqing
- * @data:
- * @Description:
+ * @data:2015年04月16日21:38:47
+ * @Description:用户表，对应多个权限
  */
 public class User {
 
     private int id;
     private String username;
     private String password;
+    private List<Role> roleList;
 
-    public User(int id, String username, String password) {
-        this.id = id;
+    public User(String username, String password) {
         this.username = username;
         this.password = password;
     }
@@ -42,5 +44,13 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public List<Role> getRoleList() {
+        return roleList;
+    }
+
+    public void setRoleList(List<Role> roleList) {
+        this.roleList = roleList;
     }
 }

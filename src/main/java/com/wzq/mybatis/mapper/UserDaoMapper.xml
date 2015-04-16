@@ -9,11 +9,20 @@
     </select>
 
 
+    <select id="getUserList"  parameterType="int" resultMap="BaseResultMap">
+        select
+        a.id, username,password
+        from user a JOIN user_role b
+        on a.id = b.user_id
+        and b.role_id = #{id}
+    </select>
+
     <resultMap id="BaseResultMap" type="com.wzq.mybatis.model.User">
         <id property="id" column="id"></id>
         <result property="username" column="username"></result>
         <result property="password" column="password"></result>
     </resultMap>
+
     <select id="getAllUsers" resultMap="BaseResultMap">
         select
         id, username,password

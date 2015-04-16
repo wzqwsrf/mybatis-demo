@@ -95,4 +95,14 @@ public class RoleDaoTest{
         log.info("testGetRoleByName");
         printRoleInfo("ROLE_ADMIN");
     }
+
+    @Test
+    public void testGetRoleList() throws Exception {
+        log.info("testGetRoleList");
+        List<Role> roleList = roleDao.getRoleList(14);
+        log.info("roleList:" + roleList.size());
+        for (Role role : roleList){
+            printRoleInfo(role.getRolename());
+        }
+    }
 }

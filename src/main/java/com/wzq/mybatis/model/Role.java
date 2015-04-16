@@ -1,17 +1,19 @@
 package com.wzq.mybatis.model;
 
+import java.util.List;
+
 /**
  * @author: wangzhenqing
  * @data: 15/4/16 下午4:28
- * @Description:
+ * @Description:用户角色表,对应多个用户
  */
 public class Role {
     private int id;
     private String rolename;
     private String alias;
+    private List<User> userList;
 
-    public Role(int id, String rolename, String alias) {
-        this.id = id;
+    public Role(String rolename, String alias) {
         this.rolename = rolename;
         this.alias = alias;
     }
@@ -41,5 +43,13 @@ public class Role {
 
     public void setAlias(String alias) {
         this.alias = alias;
+    }
+
+    public List<User> getUserList() {
+        return userList;
+    }
+
+    public void setUserList(List<User> userList) {
+        this.userList = userList;
     }
 }

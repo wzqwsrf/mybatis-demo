@@ -80,7 +80,7 @@ public class UserDaoTest {
     @Test
     public void testAddUser() throws Exception {
         log.info("testAddUser");
-        User user = new User(2,"zhenqing.wang","123");
+        User user = new User("zhenqing.wang","123");
         boolean result = userDao.addUser(user);
         session.commit();
         printUserInfo("zhenqing.wang");
@@ -99,6 +99,16 @@ public class UserDaoTest {
 
     }
 
+    @Test
+    public void testGetUserList() throws Exception {
+        log.info("testGetUserList");
+        List<User> userList = userDao.getUserList(4);
+        int size = userList.size();
+        log.info("testGetUserList size:" + size);
+
+
+    }
+
     private void printUserInfo(String username){
         User user = userDao.getUserByName(username);
         if (user != null){
@@ -107,4 +117,6 @@ public class UserDaoTest {
             log.error("user is null");
         }
     }
+
+
 }
