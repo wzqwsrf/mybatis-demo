@@ -16,7 +16,7 @@
     </resultMap>
     <select id="getAllUsers" resultMap="BaseResultMap">
         select
-        id,username,password
+        id, username,password
         from user
     </select>
 
@@ -30,7 +30,7 @@
     </delete>
 
     <insert id="addUser" parameterType="com.wzq.mybatis.model.User">
-        INSERT INTO user(ID, USERNAME, PASSWORD) VALUES(#{id},#{username},#{password})
+        INSERT INTO user(USERNAME, PASSWORD) VALUES(#{username},#{password})
     </insert>
 
 </mapper>

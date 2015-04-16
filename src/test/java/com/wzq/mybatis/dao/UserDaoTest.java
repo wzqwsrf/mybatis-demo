@@ -52,7 +52,7 @@ public class UserDaoTest {
     @Test
     public void testGetUserByName() throws Exception {
         log.info("testGetUserByName");
-        printUserInfo();
+        printUserInfo("zhenqing.wang");
         log.info("testGetUserByName");
 
     }
@@ -62,7 +62,7 @@ public class UserDaoTest {
         log.info("testModifyUser");
         boolean result = userDao.modifyUser("zhenqing.wang", "abc");
         session.commit();
-        printUserInfo();
+        printUserInfo("zhenqing.wang");
         log.info("testModifyUser: " + result);
 
     }
@@ -72,7 +72,7 @@ public class UserDaoTest {
         log.info("testDeleteUser");
         boolean result = userDao.deleteUser("zhenqing.wang");
         session.commit();
-        printUserInfo();
+        printUserInfo("zhenqing.wang");
         log.info("testDeleteUser: " + result);
 
     }
@@ -83,7 +83,7 @@ public class UserDaoTest {
         User user = new User(2,"zhenqing.wang","123");
         boolean result = userDao.addUser(user);
         session.commit();
-        printUserInfo();
+        printUserInfo("zhenqing.wang");
         log.info("testAddUser: " + result);
 
 
@@ -99,8 +99,8 @@ public class UserDaoTest {
 
     }
 
-    private void printUserInfo(){
-        User user = userDao.getUserByName("zhenqing.wang");
+    private void printUserInfo(String username){
+        User user = userDao.getUserByName(username);
         if (user != null){
             log.info("username=" + user.getUsername() + ",password=" + user.getPassword());
         }else{

@@ -1,0 +1,111 @@
+2015-04-13 16:40:17 [INFO] testGetAllUsers
+2015-04-13 16:41:23 [INFO] testGetAllUsers
+2015-04-13 16:41:35 [INFO] testGetUserByName
+2015-04-13 16:41:36 [INFO] username=zhenqing.wang,password=cc
+2015-04-13 16:41:36 [INFO] testAddUser
+2015-04-13 16:41:36 [INFO] testGetAllUsers
+2015-04-13 16:41:36 [INFO] testGetAllUsers size:1
+2015-04-13 16:41:36 [INFO] testModifyUser
+2015-04-13 16:41:36 [INFO] testDeleteUser
+2015-04-13 16:41:36 [INFO] testDeleteUser: true
+2015-04-13 16:42:00 [INFO] testGetUserByName
+2015-04-13 16:42:00 [INFO] username=zhenqing.wang,password=cc
+2015-04-13 16:42:01 [INFO] testAddUser
+2015-04-13 16:42:01 [INFO] testGetAllUsers
+2015-04-13 16:42:01 [INFO] testGetAllUsers size:1
+2015-04-13 16:42:01 [INFO] testModifyUser
+2015-04-13 16:42:01 [INFO] testDeleteUser
+2015-04-13 16:42:01 [INFO] testDeleteUser: true
+2015-04-13 16:42:12 [INFO] testGetUserByName
+2015-04-13 16:42:12 [INFO] username=zhenqing.wang,password=cc
+2015-04-13 16:42:12 [INFO] testAddUser
+2015-04-13 16:42:13 [INFO] testGetAllUsers
+2015-04-13 16:42:13 [INFO] testGetAllUsers size:1
+2015-04-13 16:42:13 [INFO] testModifyUser
+2015-04-13 16:42:13 [INFO] testDeleteUser
+2015-04-13 16:42:13 [INFO] testDeleteUser: true
+2015-04-13 16:43:28 [INFO] testGetUserByName
+2015-04-13 16:43:28 [INFO] username=zhenqing.wang,password=cc
+2015-04-13 16:43:29 [INFO] testAddUser
+2015-04-13 16:43:29 [INFO] testAddUser: true
+2015-04-13 16:43:29 [INFO] testGetAllUsers
+2015-04-13 16:43:29 [INFO] testGetAllUsers size:1
+2015-04-13 16:43:29 [INFO] testModifyUser
+2015-04-13 16:43:29 [INFO] testDeleteUser
+2015-04-13 16:43:29 [INFO] testDeleteUser: true
+2015-04-13 16:43:53 [INFO] testGetUserByName
+2015-04-13 16:43:53 [INFO] username=zhenqing.wang,password=cc
+2015-04-13 16:43:53 [INFO] testAddUser
+2015-04-13 16:43:53 [INFO] testAddUser: true
+2015-04-13 16:43:53 [INFO] testGetAllUsers
+2015-04-13 16:43:53 [INFO] testGetAllUsers size:1
+2015-04-13 16:43:53 [INFO] testModifyUser
+2015-04-13 16:43:53 [INFO] testModifyUser: true
+2015-04-13 16:43:53 [INFO] testDeleteUser
+2015-04-13 16:43:54 [INFO] testDeleteUser: true
+2015-04-13 16:44:43 [INFO] testGetUserByName
+2015-04-13 16:44:43 [INFO] username=zhenqing.wang,password=cc
+2015-04-13 16:44:44 [INFO] testAddUser
+2015-04-13 16:44:44 [INFO] testAddUser: true
+2015-04-13 16:44:44 [INFO] testGetAllUsers
+2015-04-13 16:44:44 [INFO] testGetAllUsers size:1
+2015-04-13 16:44:44 [INFO] testModifyUser
+2015-04-13 16:44:44 [INFO] testModifyUser: true
+2015-04-13 16:44:44 [INFO] testDeleteUser
+2015-04-13 16:44:44 [INFO] testDeleteUser: true
+2015-04-13 16:45:24 [INFO] testAddUser
+2015-04-13 16:45:25 [INFO] testAddUser: true
+2015-04-13 16:46:12 [INFO] testAddUser
+2015-04-13 16:46:12 [INFO] testAddUser: true
+2015-04-13 16:46:27 [INFO] testGetUserByName
+2015-04-13 16:46:27 [INFO] username=zhenqing.wang,password=cc
+2015-04-13 16:47:54 [INFO] testAddUser
+2015-04-13 16:47:54 [INFO] testAddUser: true
+2015-04-13 16:48:04 [INFO] testAddUser
+2015-04-13 16:49:56 [INFO] testAddUser: true
+2015-04-13 16:52:00 [INFO] testGetUserByName
+2015-04-13 16:52:01 [INFO] username=zhenqing.wang,password=cc
+2015-04-13 16:52:01 [INFO] testAddUser
+2015-04-13 16:52:01 [INFO] testAddUser: true
+2015-04-13 16:52:01 [INFO] testGetAllUsers
+2015-04-13 16:52:01 [INFO] testGetAllUsers size:2
+2015-04-13 16:52:01 [INFO] testModifyUser
+2015-04-13 16:52:01 [INFO] testModifyUser: true
+2015-04-13 16:52:01 [INFO] testDeleteUser
+2015-04-13 16:52:01 [INFO] testDeleteUser: true
+2015-04-13 16:52:18 [INFO] testGetAllUsers
+2015-04-13 16:52:18 [INFO] testGetAllUsers size:1
+2015-04-13 16:53:43 [INFO] testGetAllUsers
+2015-04-13 16:53:44 [INFO] testGetAllUsers size:1
+2015-04-13 16:53:44 [INFO] testGetAllUsers username=abc
+2015-04-13 16:55:20 [INFO] testAddUser
+2015-04-13 16:55:21 [INFO] username=zhenqing.wang,password=123
+2015-04-13 16:55:21 [INFO] testAddUser: true
+2015-04-13 16:56:44 [INFO] testModifyUser
+2015-04-13 16:56:45 [INFO] username=zhenqing.wang,password=123
+2015-04-13 16:56:45 [INFO] testModifyUser: true
+2015-04-13 16:56:58 [INFO] testModifyUser
+2015-04-13 16:56:59 [INFO] username=zhenqing.wang,password=abc
+2015-04-13 16:56:59 [INFO] testModifyUser: true
+2015-04-13 16:57:05 [INFO] testGetUserByName
+2015-04-13 16:57:06 [INFO] username=zhenqing.wang,password=abc
+2015-04-13 16:57:13 [INFO] testDeleteUser
+2015-04-13 16:57:13 [INFO] testDeleteUser: true
+2015-04-13 16:58:14 [INFO] testDeleteUser
+2015-04-13 16:58:14 [ERROR] user is null
+2015-04-13 16:58:14 [INFO] testDeleteUser: false
+2015-04-13 16:58:27 [INFO] testGetUserByName
+2015-04-13 16:58:27 [ERROR] user is null
+2015-04-13 16:58:27 [INFO] testGetUserByName
+2015-04-13 16:58:27 [INFO] testAddUser
+2015-04-13 16:58:27 [INFO] username=zhenqing.wang,password=123
+2015-04-13 16:58:27 [INFO] testAddUser: true
+2015-04-13 16:58:27 [INFO] testGetAllUsers
+2015-04-13 16:58:27 [INFO] testGetAllUsers size:2
+2015-04-13 16:58:27 [INFO] testGetAllUsers username=abc
+2015-04-13 16:58:27 [INFO] testModifyUser
+2015-04-13 16:58:27 [INFO] username=zhenqing.wang,password=abc
+2015-04-13 16:58:27 [INFO] testModifyUser: true
+2015-04-13 16:58:28 [INFO] testDeleteUser
+2015-04-13 16:58:28 [ERROR] user is null
+2015-04-13 16:58:28 [INFO] testDeleteUser: true
