@@ -5,7 +5,7 @@
 <mapper namespace="com.wzq.mybatis.dao.UserDao">
 
     <select id="getUserByName" parameterType="String" resultType="com.wzq.mybatis.model.User">
-        SELECT * FROM user WHERE username=#{username}
+        SELECT * FROM user WHERE username=#{username} limit 1;
     </select>
 
 
@@ -38,7 +38,7 @@
         DELETE FROM user WHERE username=#{username}
     </delete>
 
-    <insert id="addUser" parameterType="com.wzq.mybatis.model.User">
+    <insert id="addUser" parameterType="com.wzq.mybatis.model.User" useGeneratedKeys="true" keyProperty="id">
         INSERT INTO user(USERNAME, PASSWORD) VALUES(#{username},#{password})
     </insert>
 

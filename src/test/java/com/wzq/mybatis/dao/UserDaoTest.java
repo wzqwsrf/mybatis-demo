@@ -80,11 +80,12 @@ public class UserDaoTest {
     @Test
     public void testAddUser() throws Exception {
         log.info("testAddUser");
-        User user = new User("zhenqing.wang","123");
-        boolean result = userDao.addUser(user);
+        User user = new User("zhenqing.wang","abc");
+        int result = userDao.addUser(user);
         session.commit();
         printUserInfo("zhenqing.wang");
         log.info("testAddUser: " + result);
+        log.info("testAddUser id: " + user.getId());
 
 
     }
