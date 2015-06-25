@@ -99,7 +99,7 @@ public class RoleDaoTest{
     @Test
     public void testGetRoleList() throws Exception {
         log.info("testGetRoleList");
-        List<Role> roleList = roleDao.getRoleList(14);
+        List<Role> roleList = roleDao.getRoleList(1);
         log.info("roleList:" + roleList.size());
         for (Role role : roleList){
             printRoleInfo(role.getRolename());

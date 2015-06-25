@@ -11,7 +11,7 @@
 
     <select id="getUserList"  parameterType="int" resultMap="BaseResultMap">
         select
-        a.id, username,password
+        a.id,username,password
         from user a JOIN user_role b
         on a.id = b.user_id
         and b.role_id = #{id}
@@ -25,7 +25,7 @@
 
     <select id="getAllUsers" resultMap="BaseResultMap">
         select
-        id, username,password
+        id,username,password
         from user
     </select>
 

@@ -1,26 +1,25 @@
 package com.wzq.mybatis.dao;
 
-import com.wzq.mybatis.model.Role;
 import com.wzq.mybatis.model.User;
 
 import java.util.List;
 
 /**
  * @author: wangzhenqing
- * @data:
- * @Description:
+ * @data:2015年06月25日16:08:35
+ * @Description:userdao方法
  */
 public interface UserDao {
 
-    public User getUserByName(String username);
+    User getUserByName(String username);
 
-    public boolean modifyUser(String username, String password);
+    boolean modifyUser(String username, String password);
 
-    public boolean deleteUser(String username);
+    boolean deleteUser(String username);
 
-    public int addUser(User user);
+    int addUser(User user);
 
-    public List<User> getAllUsers();
+    List<User> getAllUsers();
 
-    public List<User> getUserList(int id);
+    List<User> getUserList(int id);
 }
