@@ -6,8 +6,8 @@ import java.util.List;
 
 /**
  * @author: wangzhenqing
- * @data: 15/4/16 下午4:34
- * @Description:Roledao方法
+ * @data: 2015-04-16 16:34:18
+ * @Description: Roledao方法
  */
 public interface RoleDao {
 

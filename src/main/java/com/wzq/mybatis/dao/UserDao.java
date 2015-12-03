@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @author: wangzhenqing
- * @data:2015年06月25日16:08:35
+ * @data: 2015-06-25 16:08:35
  * @Description:userdao方法
  */
 public interface UserDao {

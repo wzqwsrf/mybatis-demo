@@ -2,7 +2,6 @@ package com.wzq.mybatis.dao;
 
 import com.wzq.mybatis.model.Customer;
 import com.wzq.mybatis.model.Order;
-import com.wzq.mybatis.model.Role;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.ibatis.io.Resources;
