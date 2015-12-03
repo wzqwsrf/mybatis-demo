@@ -19,6 +19,7 @@ import java.util.List;
  * @data: 15/4/16 下午5:55
  * @Description:RoleDao测试
  */
+
 public class RoleDaoTest{
     private Log log = LogFactory.getLog(this.getClass());
 

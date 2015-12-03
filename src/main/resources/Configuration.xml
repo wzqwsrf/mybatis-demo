@@ -18,5 +18,6 @@
     <mappers>
         <mapper resource="com/wzq/mybatis/mapper/UserDaoMapper.xml"/>
         <mapper resource="com/wzq/mybatis/mapper/RoleDaoMapper.xml"/>
+        <mapper resource="com/wzq/mybatis/mapper/CustomerDaoMapper.xml"/>
     </mappers>
 </configuration>
